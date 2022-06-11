@@ -1,0 +1,65 @@
+/* mobile design / tablet design */
+@media (max-width:993px){
+    main {
+        display: grid;
+        grid-template-columns: 23rem;
+        justify-content: center;
+        padding: 10rem 2rem 5rem;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+    /* main container */
+    .main-container {
+        display: block;
+        background-color: white;
+        border-radius: 10px;
+        transition: .5s ease-in-out;
+    }
+    /* drawer */
+    .drawer {
+        width: 23rem;
+        border-radius: 10px 10px 0 0;
+    }
+    /* content section */
+    .content {
+        padding: 2rem 2rem 1rem;
+        position: relative;
+    }
+    .first-para {
+        font-size: .9rem;
+        padding: 1.3rem 0 3rem;
+        line-height: 1.5;
+        font-weight: 500;
+        
+    }
+    /* icons */
+    .icons {
+        padding: 1rem 2rem 1rem 1.8rem;
+        line-height: normal;
+        margin: 0 0 0;
+        bottom: 0;
+        top: 15.2rem;
+        align-items: center;
+        left: 0;
+        right: 0;
+        border-radius: 0 0 10px 10px;
+    }
+    .icons::after {
+        all: unset;
+    }
+    .share-icon-mobile {
+        display: inline;
+        margin-left: auto;
+    }
+    .share-icon-mobile button {
+        background-color: hsl(214, 17%, 51%);
+        border-radius: 50px;
+    padding: .5rem .6rem;
+        border: none;
+        cursor: pointer;
+    }
+        .share-icon-mobile img{
+            filter: brightness(2);
+        }
+}
